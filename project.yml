@@ -1,0 +1,14 @@
+name: GameHub
+targets:
+  GameHub:
+    type: application # এখানে পরিবর্তন করা হয়েছে
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: GameHub
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.gamehub.emulator.pro
+      INFOPLIST_FILE: GameHub/Info.plist
+      SWIFT_VERSION: 5.0
+      CODE_SIGNING_ALLOWED: NO
+      CODE_SIGNING_REQUIRED: NO
